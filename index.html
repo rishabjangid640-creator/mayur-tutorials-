@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Mayur Tutorials</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">Mayur Tutorials</div>
+
+<div class="menu-toggle">
+<i class="fa fa-bars"></i>
+</div>
+
+<nav class="nav-links">
+<a href="/">Home</a>
+<a href="/courses">Courses</a>
+<a href="/contact">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Crack JEE • NEET • MHT CET</h1>
+
+<p>Excellence in Science & Mathematics Education</p>
+
+<p>Founder: Mayur Kadam – Physicist & Expert Mathematician</p>
+
+<div class="hero-buttons">
+
+<a href="/contact" class="btn">Enroll Now</a>
+
+<a href="https://wa.me/918329224453"
+class="btn whatsapp"
+target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i> WhatsApp
+
+</a>
+
+</div>
+
+</section>
+
+
+<section class="stats">
+
+<div class="stat">
+<h2 class="counter" data-target="1200">0</h2>
+<p>Students Enrolled</p>
+</div>
+
+<div class="stat">
+<h2 class="counter" data-target="350">0</h2>
+<p>JEE / NEET Selections</p>
+</div>
+
+<div class="stat">
+<h2 class="counter" data-target="15">0</h2>
+<p>Expert Faculty</p>
+</div>
+
+</section>
+
+
+<section class="courses">
+
+<h2>Courses Offered</h2>
+
+<div class="course-grid">
+
+<div class="course-card">
+<i class="fa-solid fa-atom"></i>
+<h3>JEE Mains</h3>
+</div>
+
+<div class="course-card">
+<i class="fa-solid fa-rocket"></i>
+<h3>JEE Advanced</h3>
+</div>
+
+<div class="course-card">
+<i class="fa-solid fa-heart-pulse"></i>
+<h3>NEET</h3>
+</div>
+
+<div class="course-card">
+<i class="fa-solid fa-calculator"></i>
+<h3>MHT CET</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="founder-section">
+
+<h2 class="section-title">Meet Our Founder</h2>
+
+<div class="founder-container">
+
+<div class="founder-image">
+
+<img src="{{ url_for('static', filename='mayur_kadam.jpg') }}" alt="Mayur Kadam">
+
+</div>
+
+<div class="founder-content">
+
+<h3>Mayur Kadam</h3>
+
+<h4>Physicist & Expert Mathematician</h4>
+
+<p>
+Mayur Kadam is the founder of <strong>Mayur Tutorials</strong>.  
+He specializes in Physics and Mathematics and has helped hundreds of students
+crack competitive exams like <strong>JEE, NEET, and MHT-CET</strong>.
+</p>
+
+<p>
+His teaching approach focuses on strong conceptual understanding,
+problem solving skills, and personalized mentoring for each student.
+</p>
+
+<ul class="founder-highlights">
+
+<li>✔ Expert in Physics & Mathematics</li>
+<li>✔ Concept-based teaching methodology</li>
+<li>✔ Competitive exam preparation specialist</li>
+<li>✔ Dedicated student mentoring</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="faculty">
+
+<h2>Our Expert Faculty</h2>
+
+<div class="faculty-grid">
+
+<div class="faculty-card">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>Mayur Kadam</h3>
+<p>Physics & Mathematics</p>
+</div>
+
+<div class="faculty-card">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Dr. Anjali Sharma</h3>
+<p>Chemistry</p>
+</div>
+
+<div class="faculty-card">
+<img src="https://randomuser.me/api/portraits/men/55.jpg">
+<h3>Rahul Patil</h3>
+<p>Biology</p>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>Mayur Tutorials</p>
+<p>Phone: 8329224453</p>
+<p>Email: mayurtutorails26@gmail.com</p>
+
+</footer>
+
+
+<a href="https://wa.me/918329224453"
+class="floating-whatsapp"
+target="_blank">
+
+<i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
