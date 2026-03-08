@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Contact - Mayur Tutorials</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">Mayur Tutorials</div>
+
+<nav>
+<a href="/">Home</a>
+<a href="/courses">Courses</a>
+<a href="/contact">Contact</a>
+</nav>
+
+</header>
+
+
+<section class="contact-section">
+
+<div class="contact-container">
+
+<h2>Student Enquiry Form</h2>
+
+<p>
+Fill the form below and our team will contact you shortly.
+</p>
+
+<form action="/submit" method="POST" class="enquiry-form">
+
+<input type="text" name="name" placeholder="Student Name" required>
+
+<input type="text" name="phone" placeholder="Phone Number">
+
+<input type="email" name="email" placeholder="Email Address">
+
+<select name="course">
+
+<option>JEE Mains</option>
+<option>JEE Advanced</option>
+<option>NEET</option>
+<option>MHT CET</option>
+
+</select>
+
+<textarea name="message" placeholder="Your Message"></textarea>
+
+<button type="submit" class="submit-btn">
+Submit Enquiry
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+</body>
+</html>
